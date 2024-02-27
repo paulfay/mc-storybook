@@ -1,6 +1,14 @@
 # MC Storybook project
 
-Steps to test: `npm run storybook` will start the storybook instance. 
+### Requirements
+
+Node 
+
+Install dependencies: `npm install`
+
+### Runnning the App/Storybook
+
+`npm run storybook` will start the storybook instance. 
 Alternatively, `npm start` will start the React app which loads the password component.
 
 ### Starts the local storybook instance
@@ -19,7 +27,7 @@ Alternatively, `npm start` will start the React app which loads the password com
 
 `npm run test`
 
-## Future Improvements
+## Future Improvements / Notes
 
 ### Validation Injection
 Validation function/promise injection from consumer, hook for each client to add their own validation. This could help if client wanted to perform a Database lookup for previously used passwords. A config like this would allow more flexibility.
