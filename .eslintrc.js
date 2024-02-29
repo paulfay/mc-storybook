@@ -28,5 +28,7 @@ module.exports = {
     "plugins": [
         "react"
     ],
-    "rules": {}
+    "rules": {
+        "no-useless-escape": "off"
+    }
 }
